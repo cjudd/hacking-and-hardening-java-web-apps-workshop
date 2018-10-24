@@ -11,3 +11,5 @@ This is a tutorial for learning Java Web Application Security.
 [3 - Cross-site scripting (XSS)](03_cross-site_scripting.md)
 
 [4 - Know Vulnerabilities](04_known-vulnerabilities.md) using Metasploit & Sonatype App Scan
+
+[5 - Security Misconfigurations](05_security_misconfiguration.md)
