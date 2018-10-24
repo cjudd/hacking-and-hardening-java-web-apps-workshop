@@ -18,6 +18,7 @@ HINT: http://localhost:8080/results?searchTerm=%27
 ```
 sqlmap -u http://localhost:8080/results?searchTerm=* --dump-all
 ```
+
 ## Observations
 
 * SQL Injection is incredibly easy to exploit. Attackers don't even need to know there are boolean-based blind, error-based, etc attacks.
@@ -30,4 +31,4 @@ sqlmap -u http://localhost:8080/results?searchTerm=* --dump-all
 ## Solutions
 
 * Parameterized Queries
-* Encoding
+* Encoding - [OWASP Enterprise Security API](https://github.com/ESAPI/esapi-java-legacy) unfortunatly considered deprecated
