@@ -28,7 +28,7 @@ HINT: http://localhost:8080/post
 1. As an admin or blogger, enter a post containing the following:
 
 ```
-<script>$(“body").css("color","red");</script>
+<script>$("body").css("color","red");</script>
 ```
 
 This request is a relatively harmless defacing of the site. But it could have easily done something more malicious such as stealing session cookies again.
