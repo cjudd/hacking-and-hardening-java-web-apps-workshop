@@ -12,6 +12,8 @@ This is a tutorial for learning Java Web Application Security.
 
 [4 - Cross-Site Request Forgery (CSRF)](04_cross-site_request_forgery.md)
 
-[5 - Know Vulnerabilities](05_known_vulnerabilities.md) using Metasploit & Sonatype App Scan
+[5 - Access Control](05_access_control.md)
 
-[6 - Security Misconfigurations](06_security_misconfiguration.md)
+[6 - Know Vulnerabilities](06_known_vulnerabilities.md) using Metasploit & Sonatype App Scan
+
+[7 - Security Misconfigurations](07_security_misconfiguration.md)
