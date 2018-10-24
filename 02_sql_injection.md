@@ -1,6 +1,6 @@
 # SQL Injection
 
-The ZAP scan itentified a severe vulnerability of SQL Injection. Injection risks has always been and remains the number 1 risk in the [OWAS 10 Ten](https://www.owasp.org/index.php/Top_10-2017_Top_10) list. 
+The ZAP scan itentified a severe vulnerability of SQL Injection. Injection attcks occur when untrusted data is sent to an intepreter as part of a command or query. Attackers can trick the interprter into excuting unintented commands or accessing data without proper authorization. Injection risks have always been and remain the number 1 risk in the [OWAS 10 Ten](https://www.owasp.org/index.php/Top_10-2017_Top_10) list. 
 In this lab, you will learn how to use [sqlmap](http://sqlmap.org/) to test and validate SQL injection vulnerabilities.
 
 NOTE: Many developers think SQL Injection vulnerabilities are a thing of the past. Unfortunately they are not. In the 2016 US presidential election for example, not one but [two state's election databases were exfiltrated](http://thehackernews.com/2016/08/election-system-hack.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+TheHackersNews+(The+Hackers+News+-+Security+Blog)&_m=3n.009a.1311.gs0ao085y3.rkc&m=1). Evidance points to the attackers actually using sqlmap to perform the attack.
