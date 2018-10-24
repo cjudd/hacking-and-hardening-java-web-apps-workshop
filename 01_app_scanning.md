@@ -58,3 +58,7 @@ Regex pattern identified in Logged Out response message = Login
 By default the scan is set at a medium level. If you want to make it more intensive, you can increase that.
 
 1. Start the scan as you normally would, Attack > Active Scan. Check the Show Advanced Options. On the Input Vector tab, you can test additional targets such as url paths, headers and cookies. On the Policy tab, you can increase the thresholds to High and Insane.
+
+## Observations
+
+* Scanning can produce false positives so take them with a grain of salt and validate.
